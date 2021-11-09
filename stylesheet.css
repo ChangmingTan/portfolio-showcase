@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*
+
+	PersonalWebSite index Stylesheet
+	Author: Changming Tan
+	Date:   11/26/2018 
+
+	Filename: stylesheet.css
+
+*/
+
+/*
+    This sticky function makes the navbar sticky on the top.
+    You can see the universal/general navbar wherever you go in all of the pages.
+    It is a convenient tool!
+*/
+
+.mainnav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+
+/*
+    The navbar has some decorations like shadows...
+    There are different hover and active effects when you move your cursor
+    amd click on the hyperlink.
+*/
+
+ul#main {
+    list-style: none;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 8px rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul#main li {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+    font-family: 'Trebuchet MS';
+}
+
+ul#main li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul#main a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0), 2px 2px 8px rgb(0, 0, 0);
+}
+
+ul#main a.mainnavactive {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 15px rgb(0, 0, 0), 2px 2px 10px rgb(0, 0, 0);
+}
+
+/*
+    These are to remove the underline and default colors of the hyperlinks.
+*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

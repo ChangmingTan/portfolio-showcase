@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*
+
+	PersonalWebSite Stylesheet
+	Author: Changming Tan
+	Date:   10/13/2018 
+
+	Filename: personalWebSite.css
+
+*/
+
+html {
+    border: none;
+    padding: 25px;
+    background: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body {
+    background-image: url("image.jpg");
+    margin: auto;
+    width: 45%;
+    font: 1.2em "Fira Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    border-radius: 50px;
+}
+
+nav.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.menu li a.active {
+    background-color: gray;
+}
+
+nav.menu li a:hover:not(.active) {
+    background-color: gray;
+}
+
+.click:hover {
+    color: red;
+}
+
+.click1:hover {
+    color: red;
+}
+
+section p.describe {
+    text-align: left;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}

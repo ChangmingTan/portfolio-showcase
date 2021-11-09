@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*   Author:   Changming Tan
+   Date:      11/16/2018
+
+   Filename: index.css
+*/
+
+img#doorlogo {
+    position: relative;
+    top: 40%;
+    left: 9%;
+    margin-right: -50%;
+    box-shadow: black 10px 10px 80px, black -10px 10px 80px;
+    margin: 30px;
+}
+
+p {
+    text-align: left;
+    margin: 30px;
+}
+
+body {
+    background: white;
+    max-width: 1024px;
+    box-shadow: white 10px 10px 80px, white -10px 10px 80px;
+    margin: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*    Author:  Changming Tan
+   Date: 10/30/2018
+   Filename: mealPlan.html
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(113, 140, 155);
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tbody {
+    background-color: lightblue;
+}
+
+tfoot {
+    text-align: center;
+    background-color: pink;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 30px;
+}
+
+div {
+    padding-top: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: black 20px 20px 80px, black 8px 8px 10px
+}

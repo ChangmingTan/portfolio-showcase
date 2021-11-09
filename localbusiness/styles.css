@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*   Author:   Changming Tan
+   Date:      11/16/2018
+
+   Filename: styles.css
+*/
+
+html {
+    background: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+img#logo {
+    position: relative;
+    top: 0%;
+    left: 30%;
+    margin-right: -50%;
+}
+
+ul#location {
+    list-style: none;
+    font-size: 16px;
+    float: right;
+    margin: 18px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 8px white;
+}
+
+ul#location a:hover,
+ul#location a:active {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 8px white;
+}
+
+ul#location a:link {
+    text-decoration: none;
+}
+
+ul#location a:visited {
+    text-decoration: none;
+}
+
+ul#location a:hover {
+    text-decoration: underline;
+}
+
+ul#location a:active {
+    text-decoration: underline;
+}
+
+nav#top {
+    position: relative;
+    top: 30%;
+    left: 15%;
+    margin-right: -50%;
+}
+
+nav#top ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav#top ul li {
+    float: left;
+}
+
+nav#top ul li a {
+    color: black;
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 15px white;
+}
+
+nav#top a:hover {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 15px white;
+}
+
+nav#bottom {
+    list-style: none;
+    font-size: 15px;
+    margin: 18px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 8px white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+nav#bottom a:link {
+    text-decoration: none;
+}
+
+nav#bottom a:visited {
+    text-decoration: none;
+}
+
+nav#bottom a:hover {
+    text-decoration: underline;
+}
+
+nav#bottom a:active {
+    text-decoration: underline;
+}
+
+nav#bottom a:hover,
+ul#location a:active {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 8px white;
+}
+
+nav#bottom ul {
+    flex: 0 1 150px;
+}
+
+nav#bottom ul li {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+footer p {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}

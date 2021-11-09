@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*
+
+	PersonalWebSite index Stylesheet
+	Author: Changming Tan
+	Date:   11/26/2018 
+
+	Filename: index.css
+
+*/
+
+html {
+    background: url(bk.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+}
+
+/*
+ This text shadow will "burn" the h1 words.
+*/
+
+h1 {
+    font-family: cursive;
+    font-size: 8em;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 10px rgb(255, 255, 0), 0 -10px 20px orange, 0 -18px 40px rgb(253, 0, 0);
+
+}
+
+/*
+    I use a small image as the border image, from w3 schools.
+*/
+
+#boarder {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(border.png) 30 stretch;
+    width: auto;
+    color: rgb(255, 255, 255);
+}
+
+p#sentense {
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-shadow: 1px 3px 0 rgb(161, 132, 132), 1px 13px 5px rgb(124, 108, 108);
+}
+
+footer {
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+footer,
+footer a {
+    clear: both;
+    margin-bottom: 0%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+/*
+ This is sections positioning.
+*/
+
+section#a {
+    float: left;
+    margin: 2% 5%;
+    width: 20%;
+}
+
+section#b {
+    float: left;
+    margin: 2% 1.5%;
+    width: 20%;
+}
+
+section#c {
+    float: left;
+    margin: 2% 1.5%;
+    width: 20%;
+}
+
+section#d {
+    float: left;
+    margin: 2% 1.5%;
+    width: 20%;
+}
+
+section#a,
+section#b,
+section#c,
+section#d {
+    position: relative;
+    width: 20%;
+}
+
+
+/*
+    This is words overlay an image. 
+    When you move your cursor to an image, 
+    it will show the name and of the project, 
+    and you can click in and check.
+    It works as nav function, too.
+*/
+
+div.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 280px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+section#a:hover .overlay {
+    opacity: 1;
+}
+
+section#b:hover .overlay {
+    opacity: 1;
+}
+
+section#c:hover .overlay {
+    opacity: 1;
+}
+
+section#d:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+
+/*
+    This box shadow will "burn" the images.
+*/
+
+.overlay {
+    -webkit-box-shadow: rgb(255, 255, 255) 0 -1px 4px, rgb(255, 255, 0) 0 -2px 10px, rgb(255, 136, 0) 0 -10px 20px, rgb(255, 0, 0) 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0); 
+    box-shadow: rgb(255, 255, 255) 0 -1px 4px, rgb(255, 255, 0) 0 -2px 10px, rgb(255, 136, 0) 0 -10px 20px, rgb(255, 0, 0) 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}

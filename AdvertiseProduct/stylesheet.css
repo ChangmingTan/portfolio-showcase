@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*
+	Name of Assignment or Web Site: Advertise A Product Assignment
+
+	Advertise A Product Style Sheet
+	Author: Changming Tan
+	Date:   10/6/2018 
+
+	Filename: stylesheet.css
+
+*/
+
+
+/* Style
+*/
+
+html {
+    background-color: rgb(173, 189, 227);
+}
+
+body {
+    background-color: rgb(227, 210, 173);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+footer {
+    background-color: rgb(136, 150, 195);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+footer p {
+    font-style: normal;
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav.menu li {
+    float: left;
+}
+
+nav.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.menu li a:hover:not(.active) {
+    background-color: rgb(171, 198, 71);
+}
+
+.active {
+    background-color: rgb(171, 198, 71);
+}
+
+section#details h1 {
+    text-align: center;
+    font-size: 2em;
+    border-style: outset;
+    border-bottom: 3px solid red;
+    background-color: lightgrey;
+}
+
+section#details p {
+    font-size: 1.1em;
+}
+
+aside#Features h2 {
+    font-size: 1em;
+}
+
+
+/*Layout
+*/
+
+header,
+section,
+aside,
+footer {
+    margin: 0 1.5% 24px 1.5%;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    margin-bottom: 0;
+}
